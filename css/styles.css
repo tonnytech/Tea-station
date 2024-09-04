@@ -129,6 +129,7 @@ p {
   margin: 0 auto;
   max-width: 1170px;
 }
+
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;
@@ -291,6 +292,15 @@ Header
   /* animation */
   overflow-x: hidden;
 }
+
+.construction-header {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/construction.jpg") center/cover no-repeat fixed;
+  position: relative;
+  /* animation */
+  overflow-x: hidden;
+}
 .banner {
   text-align: center;
   position: absolute;
@@ -318,6 +328,14 @@ Header
   font-size: 1.25rem;
   padding: 1rem 1.75rem;
   animation: show 5s linear 1;
+}
+
+.banner .construction-yellow {
+  color: #e9b949;
+}
+
+.banner .construction-red {
+  color: #bb2525;
 }
 /* content divider */
 .content-divider {
